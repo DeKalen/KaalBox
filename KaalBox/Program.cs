@@ -120,6 +120,29 @@ namespace kaal
 
                     Console.WriteLine("\nHet duurde je " + trys + " pogingen om een zes te gooien.");
                 }
+                else if (dobbelEen == "2")
+                {
+                    Console.WriteLine("Je koos 2 dobbelstenen, klik enter om te beginnen");
+                            Console.ReadLine();
+                            Random numberGen = new Random();
+                            int roll01 = 0;
+                            int roll02 = 1;
+                            int trys01 = 0;
+
+                            Console.WriteLine("Klik enter om te gooien");
+
+                            while (roll01 != roll02) {
+                                Console.ReadKey();
+                                roll01 = numberGen.Next(1, 7);
+                                roll02 = numberGen.Next(1, 7);
+                                Console.WriteLine("\nDobbelsteen 1: " + roll02);
+                                Console.WriteLine("\nDobbelsteen 2: " + roll01);
+                                trys01++;
+
+                            }
+
+                            Console.WriteLine("\nHet duurde je " + trys01 + " pogingen om even te gooien");
+                }
             }
 
             Console.ReadKey();

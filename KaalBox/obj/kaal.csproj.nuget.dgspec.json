@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\GOncalo\\Data\\kaal\\kaal.csproj": {}
+    "F:\\GOncalo\\Data\\KaalBox\\kaal.csproj": {}
   },
   "projects": {
-    "F:\\GOncalo\\Data\\kaal\\kaal.csproj": {
+    "F:\\GOncalo\\Data\\KaalBox\\kaal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GOncalo\\Data\\kaal\\kaal.csproj",
+        "projectUniqueName": "F:\\GOncalo\\Data\\KaalBox\\kaal.csproj",
         "projectName": "kaal",
-        "projectPath": "F:\\GOncalo\\Data\\kaal\\kaal.csproj",
+        "projectPath": "F:\\GOncalo\\Data\\KaalBox\\kaal.csproj",
         "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "F:\\GOncalo\\Data\\kaal\\obj\\",
+        "outputPath": "F:\\GOncalo\\Data\\KaalBox\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
