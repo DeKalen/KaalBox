@@ -1,0 +1,16 @@
+F:\GOncalo\Data\kaal\bin\Debug\net5.0\kaal.exe
+F:\GOncalo\Data\kaal\bin\Debug\net5.0\kaal.deps.json
+F:\GOncalo\Data\kaal\bin\Debug\net5.0\kaal.runtimeconfig.json
+F:\GOncalo\Data\kaal\bin\Debug\net5.0\kaal.runtimeconfig.dev.json
+F:\GOncalo\Data\kaal\bin\Debug\net5.0\kaal.dll
+F:\GOncalo\Data\kaal\bin\Debug\net5.0\ref\kaal.dll
+F:\GOncalo\Data\kaal\bin\Debug\net5.0\kaal.pdb
+F:\GOncalo\Data\kaal\obj\Debug\net5.0\kaal.csproj.AssemblyReference.cache
+F:\GOncalo\Data\kaal\obj\Debug\net5.0\kaal.GeneratedMSBuildEditorConfig.editorconfig
+F:\GOncalo\Data\kaal\obj\Debug\net5.0\kaal.AssemblyInfoInputs.cache
+F:\GOncalo\Data\kaal\obj\Debug\net5.0\kaal.AssemblyInfo.cs
+F:\GOncalo\Data\kaal\obj\Debug\net5.0\kaal.csproj.CoreCompileInputs.cache
+F:\GOncalo\Data\kaal\obj\Debug\net5.0\kaal.dll
+F:\GOncalo\Data\kaal\obj\Debug\net5.0\ref\kaal.dll
+F:\GOncalo\Data\kaal\obj\Debug\net5.0\kaal.pdb
+F:\GOncalo\Data\kaal\obj\Debug\net5.0\kaal.genruntimeconfig.cache
