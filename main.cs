@@ -859,7 +859,7 @@ namespace KaalBox
                 SoundPlayer Gnsspeler = new SoundPlayer("src/msc/Rock/GNS/Gns playlist.wav");
                 muziekoptie00:
                 Console.WriteLine("\nEr zijn deze playlist beschikbaar:");
-                Console.WriteLine("Guns N' Roses , Queen , Eminem , Rock , Pop ,All , EIgen");
+                Console.WriteLine("Guns N' Roses , Queen , Rock , EIgen");
                 muziekoptie01:
                 string MuziekOptie = Console.ReadLine();
                 if (MuziekOptie == "GNS")
@@ -945,135 +945,6 @@ namespace KaalBox
                         goto QSpeler00;
                     }
                 }
-                else if (MuziekOptie == "R")
-                {
-                    SoundPlayer Rspeler = new SoundPlayer("src/msc/Rock/R.wav");
-                    Rspeler.Load();
-                    Console.WriteLine("Klik enter om af te spelen");
-                    Console.ReadLine();
-                    Rspeler.Play();
-                    Roptie00:
-                    string Roptie = Console.ReadLine();
-                    if (Roptie == "S")
-                    {
-                        Rspeler.Stop();
-                        goto Roptie00;
-                    }
-                    else if (Roptie == "O"){
-                        Rspeler.Play();
-                        goto Roptie00;
-                    }
-                    else if (Roptie == "AM")
-                    {
-                        Console.Clear();
-                        goto muziekoptie00;
-                    }
-                    else if (Roptie == "A")
-                    {
-                        goto Optie;
-                    }
-                    else if (Roptie == "W")
-                    {
-                        goto Einde;
-                    }
-                    else if (Roptie == "help")
-                    {
-                        Console.Clear();
-                        Console.WriteLine("\nS: stop\nO: opnieuw spelen\nAM: andere muziek\nA: andere opties\nW: weggaan\n");
-                        goto Roptie00;
-                    }
-                    else
-                    {
-                        Console.Clear();
-                        Console.WriteLine("\nS: stop\nO: opnieuw spelen\nAM: andere muziek\nA: andere opties\nW: weggaan\n");
-                        goto Roptie00;
-                    }   
-                }
-                else if (MuziekOptie == "E")
-                {
-                    SoundPlayer EMspeler = new SoundPlayer("src/msc/Pop/Eminem/Shady.wav");
-                    EMspeler.Load();
-                    Console.WriteLine("Klik enter om af te spelen");
-                    Console.ReadLine();
-                    EMspeler.Play();
-                    Emspeler00:
-                    string EMspelerOptie = Console .ReadLine();
-                    if (EMspelerOptie == "S")
-                    {
-                        EMspeler.Stop();
-                        goto Emspeler00;
-                    }
-                    else if (EMspelerOptie == "O")
-                    {
-                        EMspeler.Play();
-                        goto Emspeler00;
-                    }
-                    else if (EMspelerOptie == "AM")
-                    {
-                        Console.Clear();
-                        goto muziekoptie00;
-                    }
-                    else if (EMspelerOptie == "A"){
-                        goto Optie;
-                    }
-                    else if (EMspelerOptie == "W"){
-                        goto Einde;
-                    }
-                    else if (EMspelerOptie == "help")
-                    {
-                        Console.WriteLine("\nS: stop\nO: opnieuw spelen\nAM: andere muziek\nA: andere opties\nW: weggaan");
-                        goto Emspeler00;
-                    }
-                    else{
-                        Console.WriteLine("\nS: stop\nO: opnieuw spelen\nAM: andere muziek\nA: andere opties\nW: weggaan");
-                        goto Emspeler00;
-                    }
-                }
-                else if (MuziekOptie == "P")
-                {
-                    SoundPlayer Popspeler = new SoundPlayer("src/msc/Pop/Pop.wav");
-                    Popspeler.Load();
-                    Console.WriteLine("\nTyp enter om af te spelen");
-                    Console.ReadLine();
-                    Popspeler.Play();
-                    PopspelerOptie00:
-                    string PopSpelerOptie = Console.ReadLine();
-                    if (PopSpelerOptie == "S")
-                    {
-                        Popspeler.Stop();
-                        goto PopspelerOptie00;
-                    }
-                    else if (PopSpelerOptie == "O")
-                    {
-                        Popspeler.Play();
-                        goto PopspelerOptie00;
-                    }
-                    else if (PopSpelerOptie == "AM")
-                    {
-                        Console.Clear();
-                        goto muziekoptie00;
-                    }
-                    else if (PopSpelerOptie == "A")
-                    {
-                        Console.Clear();
-                        goto Optie;
-                    }
-                    else if (PopSpelerOptie == "W")
-                    {
-                        Console.Clear();
-                        goto Einde;
-                    }
-                    else if (PopSpelerOptie == "help")
-                    {
-                        Console.WriteLine("\nS: stop\nO: opnieuw\nAM: andere nuziek\nA: andere opties\nW: weggaan");
-                        goto PopspelerOptie00;
-                    }
-                    else
-                    {
-                        Console.WriteLine("\nS: stop\nO: opnieuw\nAM: andere nuziek\nA: andere opties\nW: weggaan");
-                        goto PopspelerOptie00;
-                    }
-                }
                 else if (MuziekOptie == "EI")
                 {
                     Console.Clear();
@@ -1122,48 +993,48 @@ namespace KaalBox
                         goto EigenSpeler00;
                     }
                 }
-                else if (MuziekOptie == "ALL")
+                else if (MuziekOptie == "R")
                 {
-                    SoundPlayer Allspeler = new SoundPlayer("src/msc/ALL/ALL.wav");
-                    Allspeler.Load();
+                    SoundPlayer Rockspeler = new SoundPlayer("src/msc/Rock/R.wav");
+                    Rockspeler.Load();
                     Console.WriteLine("Typ enter om af te spelen");
                     Console.ReadLine();
-                    Allspeler.Play();
-                    Allspeler00:
-                    string Allspeleroptie = Console.ReadLine();
-                    if (Allspeleroptie == "S")
+                    Rockspeler.Play();
+                    Rockspeler00:
+                    string Rockspeleroptie = Console.ReadLine();
+                    if (Rockspeleroptie == "S")
                     {
-                        Allspeler.Stop();
-                        goto Allspeler00;
+                        Rockspeler.Stop();
+                        goto Rockspeler00;
                     }
-                    else if (Allspeleroptie == "O")
+                    else if (Rockspeleroptie == "O")
                     {
-                        Allspeler.Play();
-                        goto Allspeler00;
+                        Rockspeler.Play();
+                        goto Rockspeler00;
                     }
-                    else if (Allspeleroptie == "AM")
+                    else if (Rockspeleroptie == "AM")
                     {
                         Console.Clear();
                         goto muziekoptie00;
                     }
-                    else if (Allspeleroptie == "A")
+                    else if (Rockspeleroptie == "A")
                     {
                         Console.Clear();
                         goto Optie;
                     }
-                    else if (Allspeleroptie == "W")
+                    else if (Rockspeleroptie == "W")
                     {
                         Console.Clear();
                         goto Einde;
                     }
-                    else if (Allspeleroptie == "help")
+                    else if (Rockspeleroptie == "help")
                     {
                         Console.WriteLine("\nS: stop\nO: opnieuw spelen\nAM: andere muziek\nA: andere opties\nW: weggaan");
-                        goto Allspeler00;
+                        goto Rockspeler00;
                     }
                     else{
                         Console.WriteLine("\nS: stop\nO: opnieuw spelen\nAM: andere muziek\nA: andere opties\nW: weggaan");
-                        goto Allspeler00;
+                        goto Rockspeler00;
                     }
                 }
                 else if (MuziekOptie == "S")
@@ -1181,12 +1052,12 @@ namespace KaalBox
                 }
                 else if (MuziekOptie == "help")
                 {
-                    Console.WriteLine("\nGNS: Guns N' Roses \nQ: queen\nR: rock\nE: eminem\nP: pop\nALL: alle muziek\nEI: eigen muziek\nA: andere opties\nW: weg gaan\nS: stop muziek");
+                    Console.WriteLine("\nGNS: Guns N' Roses \nQ: queen\nR: alle rock muziek\nEI: eigen muziek\nA: andere opties\nW: weg gaan\nS: stop muziek");
                     goto muziekoptie01;
                 }
                 else
                 {
-                    Console.WriteLine("\nGNS: Guns N' Roses \nQ: queen\nE: Eminem\nR: rock\nP: pop\nALL: alle muziek\nEI: eigen muziek\nA: andere opties\nW: weg gaan\nS: stop muziek");
+                    Console.WriteLine("\nGNS: Guns N' Roses \nQ: queen\nR: alle rock muziek\nEI: eigen muziek\nA: andere opties\nW: weg gaan\nS: stop muziek");
                     goto muziekoptie01;
                 }
             }               
